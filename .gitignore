@@ -4,4 +4,4 @@ __pycache__/
 mlruns/
 *.pkl
 .dvc/
-data/
+#data/

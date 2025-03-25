@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  train:
+    build: .
+    volumes:
+      - .:/app
+    command: python src/models/train_model.py
